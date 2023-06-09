@@ -12,6 +12,7 @@ repos:
     rev: v2.4.1
     hooks:
       - id: prettier
+        name: prettier check
         files: \.(js|jsx|ts|tsx|json|css|scss)$
         exclude: /node_modules/
 
@@ -19,5 +20,6 @@ repos:
     rev: v7.4.0
     hooks:
       - id: eslint
+        name: eslint check
         files: '\.(js|jsx|ts|tsx)$'
         exclude: '/node_modules/'
